@@ -10,6 +10,7 @@
 
 ```
     npm install
+    npm start
 ```
 --
 Yey! Guys You now seeing the google clone! 🚀 
