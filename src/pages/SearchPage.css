@@ -1,0 +1,122 @@
+.searchPage__header {
+    display: flex;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 30px;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+}
+
+.searchPage__headerRight {
+    display: flex;
+    align-items: center;    
+}
+
+.searchPage__headerRight a {    
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+}
+
+.searchPage__headerRight a:hover {
+    text-decoration: underline;
+}
+
+.searchPage__logo {
+    height: 40px;
+    object-fit: contain;
+    margin-top: 6px;
+    margin-right: 50px;
+}
+
+.searchPage__headerBody > .search > .search__input {
+    margin-top: 0;
+    width: unset;
+    margin: unset;
+    margin-bottom: 20px;
+    max-width: unset;
+}
+
+.searchPage__options {    
+    display: flex;
+    align-items: center;
+    color: gray;    
+    font-size: 14px;
+}
+
+.searchPage__options a,
+.searchPage__optionsRight a {
+    margin-left: 2px;
+    text-decoration: none;
+    color: gray;
+}
+
+.searchPage__optionsRight {
+    margin-left: 80px;
+}
+
+.searchPage__optionsRight,
+.searchPage__optionsLeft {
+    display: flex;
+}
+
+.searchPage__option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+.searchPage__option a {
+    margin-right: 5px;
+}
+
+.searchPage__result {
+    margin: 30px 0;
+
+}
+
+.searchPage__resultCount {
+    color: #70757a;
+    font-size: 14px;
+}
+
+.searchPage__results {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+
+.searchPage__resultTitle {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.searchPage__resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2 {
+    font-weight: 500;
+}
+
+.searchPage__resultSnippet {
+    margin-top: 10px;
+}
+
+.searchPage__resultImage {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.searchPage__resultLink {
+     display: flex;
+     align-items: center;
+}
